@@ -1,0 +1,23 @@
+.modal {
+  @include position();
+  display: none;
+  z-index: 1;
+
+  // Shown Modal
+  &.in {
+    display: block;
+  }
+}
+
+.modal__overlay {
+  @include position();
+  background-color: $overlay-bg;
+}
+.modal__inner {
+  @include position(50%, 50%, 400px, 400px);
+  margin: -200px 0 0 -200px;
+  background-color: #fff;
+  border-radius: .5em;
+  box-shadow: 0 0 14px 1px $overlay-shadow-color;
+  z-index: 2;
+}

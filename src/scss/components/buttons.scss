@@ -1,0 +1,41 @@
+.button {
+  display: inline-block;
+  font-weight: $btn-font-weight;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: .2em solid transparent;
+  padding: .5em .75em;
+  border-radius: .25em;
+  cursor: pointer;
+  background-image: none;
+  background-color: $bg-primary;
+  transition: background-color $transition-duration $transition-timing-function;
+
+  // Hover State
+  &:hover {
+    background-color: darken($btn-primary-bg, 5%)
+  }
+
+  // Focus State
+  &:focus{
+    outline: 0;
+  }
+
+  // Disabled State
+  &:disabled {
+    opacity: .65;
+  }
+
+  // Active State
+  &:active {
+    background-image: none;
+    background-color: darken($btn-primary-bg, 10%)
+  }
+}
+
+.button--primary {
+  background-color: $btn-primary-bg;
+  color: #fff;
+}

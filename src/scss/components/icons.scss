@@ -1,0 +1,18 @@
+.icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icon--prev {
+  transform: rotateZ(-135deg);
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+.icon--next {
+  transform: rotateZ(45deg);
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+}

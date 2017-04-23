@@ -1,0 +1,23 @@
+/* === Globals === */
+$font-primary-color: #333;
+$font-primary-line-height: 1.45;
+$font-primary-size: 16px;
+
+$bg-primary: #ccc;
+
+/* === Buttons === */
+$btn-font-weight: 400;
+$btn-primary-bg: teal;
+
+/* === Transitions === */
+$transition-duration: .25s;
+$transition-timing-function: ease-out;
+
+/* === Overlays === */
+$overlay-bg: rgba(0,0,0,0.3);
+$overlay-shadow-color: #555;
+
+/* === Breakpoints === */
+$b-mobile: 480px; // 30em
+$b-tablet: 720px; // 45em
+$b-desktop: 960px // 60em
