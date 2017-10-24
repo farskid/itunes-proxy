@@ -27,6 +27,6 @@
     "babel-polyfill": "^6.23.0",
     "jquery": "^3.2.1"
   },
-  "description": "aparat test project",
+  "description": "Simple ES6 + webpack starter kit leveraging jQuery and webpack-dev-server for live and hot reload",
   "author": "Farzad YZ"
 }

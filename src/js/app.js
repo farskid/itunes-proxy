@@ -1,18 +1,17 @@
-import jQuery from  "jquery"
-import exposeToWindow from './expose'
+import jQuery from  "jquery";
+import expose from './expose';
 
-import {toggleCarousel, fetchCarouselItems} from './DOM'
-
-
-exposeToWindow('app', {
-  jQuery,
-  toggleCarousel,
-  init: () => {
-    const $ = jQuery
-    window.$ = jQuery
-
-    $(document).on('modal-in', () => {
-      fetchCarouselItems()
-    })
+const app = {
+  init() {
+    console.info('App initialized');
   }
-})
+};
+
+expose(
+  [
+    {$: jQuery},
+    {app}
+  ]
+);
+
+export default app;
