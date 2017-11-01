@@ -2,7 +2,10 @@
 
 1. Clone the repository.
 2. `npm install` to install dependencies.
-3. `npm run dev` to run development server. it will open a browser tab with webpack dev server steup out of the box!
+3. `npm run dev` or `npm start` to run development server. it will open a browser tab with webpack dev server steup out of the box!
+
+## Test
+To run the tests: `npm test`.
 
 ## Build
 

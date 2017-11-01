@@ -1,16 +1,17 @@
-const path = require('path')
-const webpack = require('webpack')
-const autoprefixer = require('autoprefixer')
+const path = require('path');
+const webpack = require('webpack');
+const autoprefixer = require('autoprefixer');
 
 // NODE_ENV
-const env = process.env.NODE_ENV
-const envTaskFactory = require('./envTask.js')
-const envTask = envTaskFactory.createTask(env)
+const env = process.env.NODE_ENV;
+const envTaskFactory = require('./envTask.js');
+const envTask = envTaskFactory.createTask(env);
 
 // Dirs
-const sourceDir = __dirname + '/src'
-const buildDir = __dirname + '/dist'
+const sourceDir = __dirname + '/src';
+const buildDir = __dirname + '/dist';
 
+console.log(buildDir);
 
 module.exports = {
   devtool: 'source-map',
@@ -34,11 +35,11 @@ module.exports = {
         loader: 'url-loader'
       },
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules|lib/,
         loader: 'babel-loader',
         query: {
-          presets: ['es2015', 'stage-2']
+          presets: ['es2015', 'stage-2', 'react']
         }
       }
     ]
@@ -49,13 +50,9 @@ module.exports = {
       new webpack.HotModuleReplacementPlugin(),
       new webpack.DefinePlugin({
         'process.env': {
-          'NODE_ENV': JSON.stringify(env)
+          NODE_ENV: JSON.stringify(env)
         }
-      }),
-      new webpack.ProvidePlugin({
-        $: "jquery",
-        jQuery: "jquery"
       })
-    ]
+    ];
   })
-}
+};
