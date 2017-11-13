@@ -1,0 +1,101 @@
+.card {
+  display: block;
+  color: $card-main-color;
+  width: 480px;
+  margin: 1em auto;
+  pre {
+    background-color: $card-pre-bg;
+    color: $card-pre-color;
+    font-family: monospace;
+    margin: .5em auto;
+    padding: .5em;
+    white-space: pre-wrap;
+  }
+}
+
+.card__header {
+  border-radius: .25em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+  cursor: pointer;
+  user-select: none;
+  &.bg--success .card__counter {
+    background-color: lighten($color-success, 10%);
+  }
+  &.bg--danger .card__counter {
+    background-color: lighten($color-danger, 15%);
+  }
+}
+
+.card__counter {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.card__title {
+  flex-grow: 1;
+  margin: 0 auto;
+  font-size: 1.25rem;
+  padding-left: 1em;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.card__subtitle {
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.card__main {
+  border-radius: 0 0 .25em .25em;
+  background-color: $card-main-bg;
+  animation: collapse-out forwards 0ms ease;
+}
+
+.card__main__inner {
+  padding: 1em;
+}
+
+
+/*
+  * Collapsed state
+*/
+
+.card--collapsed {
+  .card__header {
+    border-radius: .25em .25em 0 0;
+  }
+  .card__main {
+    animation: collapse-in forwards 500ms ease;
+  }
+}
+
+@keyframes collapse-out {
+  from {
+    max-height: 1000px;
+    visibility: visible;
+  }
+  to {
+    max-height: 0;
+    overflow: hidden;
+    visibility: hidden;
+  }
+}
+
+@keyframes collapse-in {
+  from {
+    max-height: 0;
+    overflow: hidden;
+    visibility: hidden;
+  }
+  to {
+    max-height: 1000px;
+    visibility: visible;
+  }
+}
