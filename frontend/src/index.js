@@ -1,18 +1,19 @@
+/* eslint-disable import/first */
 import React from 'react';
-import ReactDOM from 'react-dom';
-// Metadata and Rules
-import rules from 'data/rules';
-import data from 'data/data';
-// Root component
-import Flow from 'components/Flow/Flow';
-// Require HTML
-import './index.html';
-// Require SCSS
-import './scss/index.scss';
-// Babel Polyfill(ES5)
-import 'babel-polyfill';
+import { render } from 'react-dom';
+import { Provider } from 'react-redux';
+// Store
+import store from './store';
+// Root
+import App from './components/App/App';
+// Bootstrap
+import 'bootstrap/dist/css/bootstrap.css';
+// shared styles
+import './styles/index.css';
 
-ReactDOM.render(
-  <Flow rules={JSON.parse(rules)} data={data} />,
+render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
   document.getElementById('root')
 );

@@ -1,0 +1,12 @@
+body {
+  background-color: #fff;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.disabled,
+[disabled] {
+  cursor: not-allowed;
+}
