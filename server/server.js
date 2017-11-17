@@ -1,16 +1,31 @@
-const express = require('express');
-const cors = require('cors');
-const routes = require('./routes');
-const config = require('./config');
+const express = require("express");
+const cors = require("cors");
+const responseTime = require('response-time');
+const routes = require("./routes");
+const config = require("./config");
 // APP
-const server = express();
+const app = express();
 // CORS
-server.use(cors());
+app.use(cors());
+// Response time
+app.use(responseTime());
 
 // set base url for api routes: /api/v1/...
-server.use(`${config.api.apiBaseURL}/v${config.api.apiVersion}`, routes);
+app.use(`${config.api.apiBaseURL}/v${config.api.apiVersion}`, routes);
 
 // Start server
-server.listen(config.app.port, () =>
-  console.log('Example app listening on port 3000!')
-);
+startServer(app, config.server.port);
+
+// Start server on desired port, manages EADDRINUSE error
+function startServer(app, port) {
+  const server = app
+    .listen(port, () => {
+      console.log(`Example app listening on port ${port}!`);
+    })
+    .on("error", err => {
+      if (err.code === "EADDRINUSE") {
+        server.close();
+        startServer(app, port + 1);
+      }
+    });
+}
