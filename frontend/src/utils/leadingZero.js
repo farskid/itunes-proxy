@@ -1,3 +1,7 @@
+/**
+ * @function leadingZero Adds zero before numbers in [0-9]
+ * @param {Number} num
+ */
 export default function leadingZero(num) {
   if (typeof num !== 'number' && !isNaN(num)) {
     throw Error('leadingZeros expects parameter 1 to be number');

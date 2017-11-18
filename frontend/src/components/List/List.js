@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import uuid from 'uuid';
 
 // Components
@@ -17,8 +18,7 @@ const List = ({
   items,
   emptyText = 'No Results',
   loading = false,
-  loadingText = 'Loading...',
-  changeTab
+  loadingText = 'Loading...'
 }) => {
   if (!items) {
     return null;
@@ -109,3 +109,17 @@ const List = ({
 };
 
 export default List;
+
+List.propTypes = {
+  items: PropTypes.array,
+  emptyText: PropTypes.string,
+  loading: PropTypes.bool,
+  loadingText: PropTypes.string
+};
+
+List.defaultProps = {
+  items: null,
+  emptyText: 'No Results',
+  loading: false,
+  loadingText: 'Loading...'
+};

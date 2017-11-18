@@ -16,7 +16,6 @@ export default function dataReducer(state = initialState, action) {
       };
     case types.SEARCH_SUCCESS:
     case types.LOOKUP_SUCCESS:
-      console.log('success', action);
       return {
         ...state,
         searchList: action.list,

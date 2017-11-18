@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
@@ -34,3 +35,9 @@ const mapDispatchToProps = dispatch =>
   );
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
+
+App.propTypes = {
+  loading: PropTypes.bool.isRequired,
+  searchCount: PropTypes.number.isRequired,
+  searchList: PropTypes.array.isRequired
+};

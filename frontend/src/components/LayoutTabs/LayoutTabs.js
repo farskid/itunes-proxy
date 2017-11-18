@@ -1,17 +1,17 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import classnames from 'classnames';
 
 // Components
 import { TabContent, TabPane, Nav, NavItem, NavLink } from 'reactstrap';
 import SearchForm from '../SearchForm/SearchForm';
 import LookupForm from '../LookupForm/LookupForm';
-import List from '../List/List';
 
 class LayoutTabs extends React.Component {
   constructor() {
     super();
     this.state = {
-      activaTab: 'search'
+      activeTab: 'search'
     };
 
     // Bindings
@@ -21,7 +21,7 @@ class LayoutTabs extends React.Component {
   changeTab(key) {
     this.props.emptyResult();
     this.setState({
-      activaTab: key
+      activeTab: key
     });
   }
 
@@ -32,7 +32,7 @@ class LayoutTabs extends React.Component {
           <NavItem>
             <NavLink
               className={classnames({
-                active: this.state.activaTab === 'search'
+                active: this.state.activeTab === 'search'
               })}
               onClick={() => this.changeTab('search')}
             >
@@ -42,7 +42,7 @@ class LayoutTabs extends React.Component {
           <NavItem>
             <NavLink
               className={classnames({
-                active: this.state.activaTab === 'lookup'
+                active: this.state.activeTab === 'lookup'
               })}
               onClick={() => this.changeTab('lookup')}
             >
@@ -50,7 +50,7 @@ class LayoutTabs extends React.Component {
             </NavLink>
           </NavItem>
         </Nav>
-        <TabContent activeTab={this.state.activaTab}>
+        <TabContent activeTab={this.state.activeTab}>
           <TabPane tabId="search">
             <SearchForm
               loading={this.props.loading}
@@ -74,3 +74,19 @@ class LayoutTabs extends React.Component {
 }
 
 export default LayoutTabs;
+
+LayoutTabs.propTypes = {
+  loading: PropTypes.bool,
+  search: PropTypes.func,
+  lookup: PropTypes.func,
+  searchList: PropTypes.array,
+  emptyResult: PropTypes.func
+};
+
+LayoutTabs.defaultProps = {
+  loading: false,
+  search: () => {},
+  lookup: () => {},
+  searchList: [],
+  emptyResult: () => {}
+};

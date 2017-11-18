@@ -1,12 +1,13 @@
 import React from 'react';
-
-// Constants
-import { MEDIATYPES, ENTITIES_MEDIATYPES } from '../../constants';
+import PropTypes from 'prop-types';
 
 // Components
 import { Row, Col, Form, FormGroup, Label, Input } from 'reactstrap';
 import Button from '../Button/Button';
 import List from '../List/List';
+
+// Constants
+import { MEDIATYPES, ENTITIES_MEDIATYPES } from '../../constants';
 
 class LookupForm extends React.Component {
   constructor() {
@@ -198,3 +199,15 @@ class LookupForm extends React.Component {
 }
 
 export default LookupForm;
+
+LookupForm.propTypes = {
+  id: PropTypes.string,
+  loading: PropTypes.bool,
+  lookup: PropTypes.func
+};
+
+LookupForm.defaultProps = {
+  id: '',
+  loading: false,
+  lookup: () => {}
+};

@@ -4,6 +4,7 @@ const config = require("./config");
 const exceptions = require("./exceptions");
 const apiUtils = require("./apiUtils");
 const cache = require("./cache");
+const logger = require("./logger");
 
 // Utils
 const { createAPIResponse, createSearchTerm } = apiUtils;
@@ -30,6 +31,7 @@ router.get("/search", (req, res) => {
 
   // Bad request: if no query params found
   if (!queryParams || !queryParams[1]) {
+    logger.error(`GET ${req.url} : Invalid query params`);
     return res
       .status(400)
       .json(createAPIResponse(true)(exceptions.INVALID_SEARCH_PARAMETERS));
@@ -37,6 +39,7 @@ router.get("/search", (req, res) => {
 
   cache.get(req.url, (err, result) => {
     if (result) {
+      logger.info(`[CACHED] GET ${req.url}`);
       return res.status(200).json(createAPIResponse(false)(JSON.parse(result)));
     } else {
       axios
@@ -46,6 +49,7 @@ router.get("/search", (req, res) => {
           )}&media=${req.query.media}&entity=${req.query.entity}`
         )
         .then(response => {
+          logger.info(`GET ${req.url} : Cached into Redis`);
           cache.setex(
             req.url,
             config.cache.expiration,
@@ -54,6 +58,7 @@ router.get("/search", (req, res) => {
           return res.status(200).json(createAPIResponse(false)(response.data));
         })
         .catch(error => {
+          logger.error(`GET ${req.url} : ERROR`, error);
           if (error.response && error.response.data) {
             return res
               .status(400)
@@ -76,6 +81,7 @@ router.get("/lookup", (req, res) => {
 
   // Bad request: if no query params found
   if (!queryParams || !queryParams[1]) {
+    logger.error(`GET ${req.url} : Invalid query params`);
     return res
       .status(400)
       .json(createAPIResponse(true)(exceptions.INVALID_LOOKUP_PARAMETERS));
@@ -83,15 +89,22 @@ router.get("/lookup", (req, res) => {
 
   cache.get(req.url, (err, result) => {
     if (result) {
-      cache.setex(req.url, config.cache.expiration, response.data);
-      return res.status(200).json(createAPIResponse(false)(result));
+      logger.info(`[CACHED] GET ${req.url}`);
+      return res.status(200).json(createAPIResponse(false)(JSON.parse(result)));
     } else {
       axios
         .get(`${lookupEndpoint}${req.url}`)
         .then(response => {
+          logger.info(`GET ${req.url} : Cached into Redis`);
+          cache.setex(
+            req.url,
+            config.cache.expiration,
+            JSON.stringify(response.data)
+          );
           return res.status(200).json(createAPIResponse(false)(response.data));
         })
         .catch(error => {
+          logger.error(`GET ${req.url} : ERROR`, error);
           if (error.response && error.response.data) {
             return res
               .status(400)
