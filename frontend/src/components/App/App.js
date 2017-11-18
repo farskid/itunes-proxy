@@ -37,7 +37,13 @@ const mapDispatchToProps = dispatch =>
 export default connect(mapStateToProps, mapDispatchToProps)(App);
 
 App.propTypes = {
-  loading: PropTypes.bool.isRequired,
-  searchCount: PropTypes.number.isRequired,
-  searchList: PropTypes.array.isRequired
+  loading: PropTypes.bool,
+  searchCount: PropTypes.number,
+  searchList: PropTypes.any
 };
+
+App.defaultProps = {
+  loading: false,
+  searchCount: 0,
+  searchList: []
+}
