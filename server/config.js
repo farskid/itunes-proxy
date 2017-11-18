@@ -1,3 +1,5 @@
+// TODO: Use .env file
+
 module.exports.QUERY_PARAMS_REGEX = /\?(.*)$/g;
 module.exports.api = {
   // URL to match the actual API
