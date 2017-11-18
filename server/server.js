@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-const responseTime = require('response-time');
+const responseTime = require("response-time");
 const routes = require("./routes");
 const config = require("./config");
 // APP
@@ -14,7 +14,7 @@ app.use(responseTime());
 app.use(`${config.api.apiBaseURL}/v${config.api.apiVersion}`, routes);
 
 // Start server
-startServer(app, config.server.port);
+startServer(app, process.env.PORT || config.server.port);
 
 // Start server on desired port, manages EADDRINUSE error
 function startServer(app, port) {

@@ -24,7 +24,6 @@ const lookupEndpoint = baseURL;
 
 // search endpoint
 router.get("/search", (req, res) => {
-  // cache.DEL(req.url);
   const regex = QUERY_PARAMS_REGEX;
 
   const queryParams = new RegExp(regex).exec(req.originalUrl);
