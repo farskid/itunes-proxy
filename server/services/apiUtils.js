@@ -26,7 +26,9 @@ function createSearchTerm(termBySpaces) {
 }
 
 // Exports
-module.exports.exceptionFactory = exceptionFactory;
-module.exports.responseFactory = responseFactory;
-module.exports.createAPIResponse = createAPIResponse;
-module.exports.createSearchTerm = createSearchTerm;
+module.exports = {
+  exceptionFactory,
+  responseFactory,
+  createAPIResponse,
+  createSearchTerm
+};

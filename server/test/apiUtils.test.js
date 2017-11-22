@@ -1,4 +1,4 @@
-const apiUtils = require("../apiUtils");
+const apiUtils = require("../services/apiUtils");
 
 describe("apiUtils", () => {
   describe("exceptionFactory", () => {

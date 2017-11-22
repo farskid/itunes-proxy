@@ -1,7 +1,7 @@
 const request = require("supertest");
 const express = require("express");
 const routes = require("../routes");
-const config = require("../config");
+const config = require("../constants");
 
 const app = express();
 app.use("/api/v1", routes);
