@@ -1,0 +1,21 @@
+.layout-tabs {
+  margin-top: 2em;
+}
+
+.nav-tabs {
+  justify-content: center;
+}
+
+.nav-tabs .nav-item {
+  width: 50%;
+}
+
+.nav-tabs .nav-link {
+  cursor: pointer;
+  text-align: center;
+  font-weight: 700;
+  &.active {
+    background-color: #f5f5f5;
+    border-bottom-color: #f5f5f5;
+  }
+}

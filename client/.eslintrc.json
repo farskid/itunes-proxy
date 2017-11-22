@@ -1,0 +1,26 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["import", "react"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jasmine": true,
+    "jest": true
+  },
+  "rules": {
+    "react/jsx-filename-extension": "off",
+    "react/forbid-prop-types": "off",
+    "import/no-unresolved": "off",
+    "import/no-extraneous-dependencies": "off",
+    "react/react-in-jsx-scope": "off",
+    "import/prefer-default-export": "off",
+    "jsx-a11y/label-has-for": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["node_modules"]
+      }
+    }
+  }
+}

@@ -1,0 +1,495 @@
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=music&entity=musicTrack : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=music&entity=musicTrack : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=music&entity=musicTrack : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=music&entity=musicTrack : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=all&entity=movie : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=all&entity=movie : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=all&entity=movie : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=all&entity=movie : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=all&entity=movie : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=music&entity=musicTrack : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=music&entity=musicTrack : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=music&entity=musicTrack : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=music&entity=musicTrack : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=music&entity=musicTrack : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=music&entity=musicTrack : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=behnam%20safavi&media=music&entity=musicArtist : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=behnam%20safavi&media=music&entity=musicArtist : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=behnam%20safavi&media=music&entity=musicArtist : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=behnam%20safavi&media=music&entity=musicArtist : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=dariush&media=all&entity=movie : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=dariush&media=all&entity=movie : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=ali%20abdolmaleki&media=all&entity=movie : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=all&entity=movie : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=all&entity=movie : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=all&entity=movie : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=all&entity=movie : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=all&entity=movie : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=all&entity=movie : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=all&entity=movie : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=all&entity=movie : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=all&entity=movie : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=all&entity=movie : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=all&entity=movie : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=all&entity=movie : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=all&entity=movie : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=all&entity=movie : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=all&entity=movie : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=music&entity=musicTrack : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=music&entity=musicTrack : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=music&entity=musicTrack : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=music&entity=musicTrack : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search?term=james%20blunt&media=music&entity=musicTrack : ERROR","level":"error"}
+{"message":"[[api/search]] GET /lookup?id=asdasdasd : ERROR","level":"error"}
+{"message":"[[api/search]] GET /lookup?id=asdasdasd : ERROR","level":"error"}
+{"message":"[[api/search]] GET /lookup?id=asdasdasd : ERROR","level":"error"}
+{"message":"[[api/search]] GET /lookup?id=asdasdasd : ERROR","level":"error"}
+{"message":"[[api/search]] GET /lookup?id=asdasdasd : ERROR","level":"error"}
+{"message":"[[api/search]] GET /lookup?id=adadawd : ERROR","level":"error"}
+{"message":"[[api/search]] GET /lookup?id=adadawd : ERROR","level":"error"}
+{"message":"[[api/search]] GET /lookup?id=adadawd : ERROR","level":"error"}
+{"message":"[[api/search]] GET /lookup?id=adadawd : ERROR","level":"error"}
+{"message":"[[api/search]] GET /lookup?id=asdasdas : ERROR","level":"error"}
+{"message":"[[api/search]] GET /lookup?id=algk;adf : ERROR","level":"error"}
+{"message":"[[api/search]] GET /lookup?id=fsdfasfdas : ERROR","level":"error"}
+{"message":"[[api/search]] GET /lookup?id=asdasda : ERROR","level":"error"}
+{"message":"[[api/search]] GET /lookup?id=dDdDSdaD : ERROR","level":"error"}
+{"message":"[[api/search]] GET /lookup?id=dDdDSdaD : ERROR","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search? : Invalid query params","level":"error"}
+{"message":"[[api/search]] GET /search : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup? : Invalid query params","level":"error"}
+{"message":"[[api/lookup]] GET /lookup : Invalid query params","level":"error"}
