@@ -9,17 +9,17 @@
   flex-wrap: wrap;
   flex-direction: row;
   align-items: flex-start;
-  >li {
+  > li {
     display: block;
-    width: calc(25% - .5em);
-    margin-right: .25em;
-    margin-left: .25em;
+    width: calc(25% - 0.5em);
+    margin-right: 0.25em;
+    margin-left: 0.25em;
     margin-bottom: 1em;
     @media (max-width: 992px) {
-      width: calc(50% - .5em);
+      width: calc(50% - 0.5em);
     }
     @media (max-width: 768px) {
-      width: calc(50% - .5em);
+      width: calc(50% - 0.5em);
     }
     @media (max-width: 480px) {
       width: 100%;
@@ -62,9 +62,9 @@
   }
 }
 
-.card-body+.card-body {
+.card-body + .card-body {
   padding: {
-    right: .25rem;
-    left: .25rem;
+    right: 0.25rem;
+    left: 0.25rem;
   }
 }

@@ -46,4 +46,4 @@ App.defaultProps = {
   loading: false,
   searchCount: 0,
   searchList: []
-}
+};

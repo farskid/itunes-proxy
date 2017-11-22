@@ -82,7 +82,8 @@ Notification.propTypes = {
       type: PropTypes.string,
       code: PropTypes.oneOfType([PropTypes.number, PropTypes.string])
     }).isRequired
-  )
+  ),
+  clearNotifications: PropTypes.func.isRequired
 };
 
 Notification.defaultProps = {

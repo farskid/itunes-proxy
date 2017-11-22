@@ -81,13 +81,11 @@ class LookupForm extends React.Component {
               type="select"
               id="media"
             >
-              {Object.values(MEDIATYPES).map(media => {
-                return (
-                  <option key={media} value={media}>
-                    {media}
-                  </option>
-                );
-              })}
+              {Object.values(MEDIATYPES).map(media => (
+                <option key={media} value={media}>
+                  {media}
+                </option>
+              ))}
             </Input>
           </FormGroup>
           <FormGroup check disabled>

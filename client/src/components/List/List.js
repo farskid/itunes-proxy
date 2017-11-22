@@ -51,7 +51,10 @@ const List = ({
                 <div>
                   <small>
                     {item.trackPrice}
-                    {item.collectionPrice}
+                    {!item.trackPrice && item.collectionPrice}
+                    {!item.trackPrice &&
+                      !item.collectionPrice &&
+                      item.trackRentalPrice}
                     {item.price} {item.currency}
                   </small>
                 </div>

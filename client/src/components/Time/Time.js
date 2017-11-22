@@ -16,8 +16,7 @@ const Time = ({ milliseconds, divider }) => {
   const MINUTES_DIVISION = HOURS_DIVISION % 60;
   const seconds = Math.ceil(MINUTES_DIVISION);
 
-  const timeArray = [hours, minutes, seconds]
-    .map(time => leadingZero(time));
+  const timeArray = [hours, minutes, seconds].map(time => leadingZero(time));
 
   return <span className="time">{timeArray.join(divider)}</span>;
 };
